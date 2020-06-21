@@ -1,32 +1,36 @@
 # Cookiecutter Data Science
 
-My personal simplified version of [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/)
+My personal simplified version of [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/).
 
+**Key differences:**
 
-### Requirements to use the cookiecutter template:
------------
- - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
+- Reduced total files generated 
+- Option to initialize git repo
 
-``` bash
-$ pip install cookiecutter
+### Requirements
+[cookiecutters](http://cookiecutter.readthedocs.org/en/latest/installation.html) is a python command-line utility that creates projects from templates.
+
+```sh
+pip install cookiecutter
 ```
 
-### To start a new project, run:
-------------
+### Run
+In terminal simply run the following command and enter the user prompts. I recommend creating an alias of the command for future use.
 
-    cookiecutter https://github.com/davidgibsonp/cookiecutter-data-science
+```sh
+cookiecutter https://github.com/davidgibsonp/cookiecutter-data-science
+```
 
-### The resulting directory structure
-------------
 
-The directory structure of your new project looks like this: 
+### Result
+The above commanad will create the following directory structure. 
 
 ```
 .
+├── .git
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE
-├── Makefile
 ├── R
 ├── README.md
 ├── data
