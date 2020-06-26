@@ -14,3 +14,4 @@ if gitinit.lower() == 'y':
 	# add remote
 	remote = input("enter remote origin: ") 
 	os.system(f"git remote add origin {remote}")
+	os.system(f"rm */.gitkeep")
