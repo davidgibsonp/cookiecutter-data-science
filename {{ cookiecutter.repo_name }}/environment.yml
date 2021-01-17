@@ -1,0 +1,7 @@
+name: env_name
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyter

@@ -23,24 +23,25 @@ cookiecutter https://github.com/davidgibsonp/cookiecutter-data-science
 
 
 ### Result
-The above commanad will create the following directory structure. 
+The above command will create the following directory structure. 
 
 ```
+.
 .
 ├── .git
 ├── .gitattributes
 ├── .gitignore
-├── LICENSE
 ├── R
 ├── README.md
 ├── data
 │   ├── processed
 │   └── raw
 ├── docs
+├── environment.yml
 ├── notebooks
+│   ├── .ipynb_checkpoints
+│   └── Untitled.ipynb
 ├── reports
-├── requirements.txt
-├── setup.py
 └── src
     └── __init__.py
 ```
