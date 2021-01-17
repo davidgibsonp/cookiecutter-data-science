@@ -89,6 +89,7 @@ target/
 *.RData
 *.rds
 *.Rout
+.Rproj.user
 
 # Data
 *.csv
