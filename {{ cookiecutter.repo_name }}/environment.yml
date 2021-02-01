@@ -1,4 +1,4 @@
-name: env_name
+name: env_{{ cookiecutter.repo_name }}
 dependencies:
   - numpy
   - pandas
